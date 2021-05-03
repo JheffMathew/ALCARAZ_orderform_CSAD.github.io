@@ -1,0 +1,373 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&family=Krona+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="CAISIP_pizzaOrderFormDesign_CSAD.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Raleway:wght@300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Original+Surfer&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <title>ORDER FORM</title>
+	<style type="text/css">
+		body{
+			margin: auto;
+			background-color: #85DCB0;
+		}
+		.container{
+			border: 20px solid #41b3a3;
+		}
+		.fill{
+			border: 10px solid #C38D93;
+			text-align: left;
+		}
+		h1{
+			font-family: 'Krona One', sans-serif;
+			text-align: center;
+			font-size: 4em;
+		}
+		h2{
+			font-family: 'Inconsolata', monospace;
+			font-size: 2.5em;
+			color: ghostwhite;
+		}
+		.b {
+			border: 10px solid #41b3a3;
+			margin-left: 25em;
+			margin-right: 25em;
+			padding-bottom: 50px;
+			padding-top: 0px;
+			background-color: #E8A87c;
+			margin-top: 15px;
+		}
+		.name, .Address, .number, .email, .direction{
+			font-family: 'Raleway', sans-serif;
+			font-size: 1.5em;
+			font-weight: bolder;	
+			margin-left: 50px;
+			margin-bottom: 5px;
+			color: green;
+			text-shadow: 0 0 10px pink;
+
+		}
+		input{
+			font-size: 1.3em;
+		
+
+		}
+		.menu{
+			background-color: #C38D93;
+			padding: 50px;
+			font-size: 4em;
+			font-family: 'Goblin One', cursive;
+			letter-spacing: 15px;
+		}
+		.burger{
+			font-size: 25px;
+			font-family: 'Original Surfer', cursive;
+			font-weight: bolder;
+			color: ghostwhite;
+		}
+		.none{
+			font-family: verdana;
+			margin: 0px;
+					}
+		.color{
+			border: 10px solid #41b3a3;
+			margin-left: 25em;
+			margin-right: 25em;
+			padding-bottom: 50px;
+			padding-top: 0px;
+			background-color: #E8A87c;
+			margin-top: 15px;
+		}
+
+		button{
+		  width: 100%;
+		  margin-top: 10px;
+		  padding: 15px;
+		  border: none;
+		  background: #41b3a3;
+		  color: #fff;
+		  font-size: 15px;
+		  font-weight: bold;
+		}
+		button:hover{
+		  cursor: pointer;
+		  background: #428a7d;
+		}
+
+		.feedback{
+
+
+		}
+        
+	
+
+	</style>
+</head>
+<body>
+    <!--ALCARAZ, JHEFF MMATHEW.-->
+    <!----05/03/2021-->
+	
+	<div class="container">
+		<div class="title">
+			<h1 style="background-color: #E8A87c; color: ghostwhite;">Pizza Order Form 🍕</h1>
+		</div>
+		<div class="fill">
+			<div class="b">
+			<form action="" method="get">
+			<br>
+			<h2 style="background-color: #41b3a3; padding: 30px; margin-top: 0px;">Customer Information</h2>
+			<br>
+			
+			<label>
+				<p class="name">Full Name </p>
+				<input type="text" name="name" max="50" placeholder="Enter Customer name" required style="margin-left: 50px; margin-top: 0px; width: 750px; ">
+			</label>
+			<label>
+				<p class="Address">Address </p>
+				<input type="text" name="Address" max="50" placeholder="Enter Home Address" required style="margin-left: 50px; margin-top: 0px; width: 750px; ">
+			</label>
+			<label>
+				<p class="number">Contact Number</p>
+				<input type="text" name="cnumber" max="50" placeholder="Enter Contact Number" required style="margin-left: 50px; margin-top: 0px; width: 750px; ">
+			</label>
+			
+			<label>
+				<p class="email">Email Address</p>
+				<input type="email" name="email" max="50" placeholder="Enter Email Address" style="margin-left: 50px; margin-top: 0px;width: 750px;  ">
+			</label>
+			
+			<label for="direction">
+				<p class="direction">Description of how to get to the place</p>
+				<input type="text" name="direction" style="margin-left: 50px; margin-top: 0px; height:100px; width: 750px" max="50" placeholder="Enter Directation Details">
+			</label>
+			</div>
+			
+			
+			
+			
+		<br><br><br><br>
+			<h2 class="menu"> MENU</h2>
+			<br><br>
+			
+			<label for="burger">
+				<h1>BURGERS</h1>
+				<br><br>
+				<div class="color">
+				<img src="ALCARAZ_IMAGES_CSAD/burger.jfif" style="float:left; border-radius:20px; margin:20px" width="340px" height="280px">
+				<p class="burger">CUSTOMIZE YOUR BURGER</p>
+				<div class="none">
+				<label class="checkbox-inline">
+					<input type="radio" name="options" value="">Single Patty
+				</label>
+				<label class="checkbox-inline">
+					<input type="radio" name="options" value="">Double Patty
+				</label>
+				<label class="checkbox-inline">
+					<input type="radio" name="options"value="">Tripple Patty
+				</label>
+				<label class="checkbox-inline">
+					<input type="radio" name="options"value="">Organic
+				</label>
+				
+				<label>
+					<p class="burger">ADD-ONS</p>
+					<input type="checkbox" value="">Tomato
+					<input type="checkbox" value="">Bacon					
+					<input type="checkbox" value="">Onion
+													
+					<input type="checkbox" value="">With Cheese
+													
+					
+
+					<input type="checkbox" value="">Egg
+				</label>
+				
+				
+				<p class="burger">CHOICE OF BUNS</p>
+				<label>
+					<input type="radio" value="">White Bun
+					<input type="radio" value="">brown Bun
+					<input type="radio" value="">Toasted Bun
+
+				</label>
+				
+				<p class="burger" style="margin-top:20px; margin-left:15em;">QUANTITY</p>
+				<label>
+				<select name="burgers" id="quantity" size="1" style="width:150px; margin-left:28em;">
+						<option value="burger1">1</option>
+						<option value="burger2">2</option>
+						<option value="burger3">3</option>
+						<option value="burger4">4</option>
+				</select>
+				</label>
+				</div>
+				</div>	
+		
+		<br><br>
+			<h1>PASTAS</h1>
+			<br><br>
+			<div class="color">
+			<img src="ALCARAZ_IMAGES_CSAD/pasta.jpeg" style="float:left; border-radius:20px; margin:20px" width="340px" height="290px">
+			<br>
+			<p class="burger">CUSTOMIZE YOUR OWN PASTA</p>
+				<label class="none">
+					<input type="radio" name="options" value="">Carbonara
+					<input type="radio" name="options" value="">Spaghetti
+					<input type="radio" name="options" value="">Macaroni
+					<input type="radio" name="options" value="">Pesto
+				</label>
+				
+				<p class="burger">ADD-ONS</p>
+			
+				<label class="none">
+					<input type="checkbox" value="">Extra Meat
+					<input type="checkbox" value="">Extra Cheese
+					<input type="checkbox" value="">Extra Sauce
+					<input type="checkbox" value="">Ground Beef
+				</label>
+				
+				<p class="burger">CHOICE OF PLATES SERVICE</p>
+				<label class="none">
+					<input type="radio" value="">2 Plates
+					<input type="radio" value="">4 Plates
+					<input type="radio" value="">8 Plates
+				</label>
+				
+				<p class="burger" style="margin-top:20px; margin-left:15em;">QUANTITY PER BOX</p>
+				<label class="none">
+				<select name="burgers" id="quantity" size="1" style="width:150px; margin-left:28em;">
+						<option value="burger1">1</option>
+						<option value="burger2">2</option>
+						<option value="burger3">3</option>
+						<option value="burger4">4</option>
+						<option value="burger4">5</option>
+				</select>
+				</label>
+			</div>
+			<br><br>
+
+			
+			<h1>FRENCH FRIES</h1>
+			<br><br>
+			<div class="color">
+			<img src="ALCARAZ_IMAGES_CSAD/fries.png" style="float:left; border-radius:20px; margin:20px" width="320px" height="290px">
+			<br>
+			<p class="burger">FRENCH FRIES SIZES</p>
+				<label class="none">
+					<input type="radio" name="options" id="small"/>Small
+					<input type="radio" name="options" id="grande"/>Medium
+					<input type="radio" name="options" id="tall"/>Large
+					<input type="radio" name="options" id="tall"/>X-Large
+			<p class="burger">FLAVORS (Choose two flavors for mixed flavors)</p>
+			
+				<label class="none">
+					<input type="checkbox" value="">Cheese
+					<input type="checkbox" value="">Barbeque
+					<input type="checkbox" value="">Sour Cream
+					<input type="checkbox" value="">Salt
+				</label>
+				
+			<p class="burger" style="margin-top:20px">QUANTITY</p>
+				<label class="none">
+				<select name="burgers" id="quantity" size="1" style="width:150px">
+						<option value="burger1">1</option>
+						<option value="burger2">2</option>
+						<option value="burger3">3</option>
+						<option value="burger4">4</option>
+						<option value="burger4">5</option>
+				</select>
+			</label>
+		</label>
+	</div>
+		
+		<br><br><br><br>
+		<h1>DRINKS</h1>
+			<br><br><br><br>
+			<div class="color">
+			<img src="ALCARZA_IMAGES_CSAD/drinks.jpg" style="float:left; border-radius:20px; margin:20px" width="310px" height="270px">
+			<br>
+			
+			<p class="burger">DRINKS SIZES</p>
+				<label class="none">
+					<input type="radio" name="options" id="small"/>Regular
+					<input type="radio" name="options" id="grande"/>Medium
+					<input type="radio" name="options" id="tall"/>Large
+				</label>
+				
+			<p class="burger">TYPE OF DRINKS</p>
+			
+				<label class="none">
+					<input type="checkbox" value="">Coke
+					<input type="checkbox" value="">Royal
+					<input type="checkbox" value="">Sprite
+					<input type="checkbox" value="">Orange Juice
+					<input type="checkbox" value="">Pineapple Juice
+				</label>
+				<label class="none">
+					<input type="checkbox" value="">Tea
+					<input type="checkbox" value="">Strawberry Milkshake
+					<input type="checkbox" value="">Coffee
+
+			<p class="burger" style="margin-top:20px">QUANTITY</p>
+				<label>
+				<select name="burgers" id="quantity" size="1"size="1" style="width:150px; margin-left:28em;">
+						<option value="burger1">1</option>
+						<option value="burger2">2</option>
+						<option value="burger3">3</option>
+						<option value="burger4">4</option>
+						<option value="burger4">6</option>
+						<option value="burger4">7</option>
+						<option value="burger4">8</option>
+				</select>
+	</label>
+</label>
+</div>
+	
+	<br><br><br>
+	<h2 style="background-color: #C38D93;
+			padding: 50px;
+			font-size: 4em;
+			font-family: 'Goblin One', cursive;
+			letter-spacing: 15px;"> FEEDBACKS </h2>
+	<div class="color">
+			<label for="direction">
+			<br>
+				<p class="direction" >COMMENTS/SUGGESTIONS</p>
+				<input type="text" name="direction" style="margin-left: 50px; margin-top: 0px; width: 750px; height: 150px;  max="150">
+			</label>
+		
+		<br><br><br>
+	<div class="delivery">
+		<div>
+			<h2 style="background-color: #41b3a3; padding: 30px; margin-top: 0px;"> DELIVERY </h2>
+		</div>
+		<br>
+			<p class="burger" style="margin-left: 20px">SHIPPING OPTIONS</p>
+			<label class="none">
+				<input type="radio" name="options" id="delivery" value="delivery">Delivery
+				<input type="radio" name="options" id="pickup" value="pickup" value="pickup">Pick-Up
+			</label>
+			<br>
+			<p class="burger" style="margin-left: 20px">MODE OF PAYMENT</p>
+			<label>
+				<input type="radio" name="options" id="delivery" value="delivery">Gcash
+			<label>
+				<input type="radio" name="options" id="delivery" value="delivery">COD
+			<label>
+				<input type="radio" name="options" id="delivery" value="delivery">BANK
+			
+			</label>
+	</div>
+</label>
+</div>
+	<br><br>
+			<button type="button">Place Order</button>
+ </div>
+</body>
+</html>
